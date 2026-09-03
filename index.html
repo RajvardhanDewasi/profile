@@ -1,638 +1,615 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-```
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj — Creative Developer</title>
 
-<meta name="description"
-    content="Rajvardhan Dewasi — B.Tech student, full-stack developer, and problem solver exploring web development, AI, and DSA.">
-
-<meta name="keywords"
-    content="Rajvardhan Dewasi, Portfolio, Full Stack Developer, Web Developer, JavaScript, MERN, AI, DSA">
-
-<meta name="author" content="Rajvardhan Dewasi">
-
-<!-- Open Graph -->
-<meta property="og:title" content="Rajvardhan Dewasi | Developer Portfolio">
-<meta property="og:description"
-    content="I build web applications, explore AI, and solve problems through code.">
-<meta property="og:type" content="website">
-
-<title>Rajvardhan Dewasi | Developer Portfolio</title>
-
-<link rel="stylesheet" href="./style.css">
-```
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-```
-<!-- CUSTOM CURSOR -->
-<div class="cursor-dot"></div>
-<div class="cursor-outline"></div>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-ring"></div>
 
-<!-- NAVIGATION -->
-<header class="navbar">
-    <a href="#home" class="logo">RD<span>.</span></a>
 
-    <nav>
+    <!-- Decorative Background -->
+    <div class="art-circle circle-one"></div>
+    <div class="art-circle circle-two"></div>
+
+    <div class="vertical-text">
+        CREATIVE • CODE • AI • WEB
+    </div>
+
+
+    <!-- Navigation -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            R<span>.</span>
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Work</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <button class="menu-button" id="menuButton">
+            MENU
+        </button>
+
+    </header>
+
+
+    <!-- Mobile Menu -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#work">Work</a>
-        <a href="#exploring">Explore</a>
+        <a href="#projects">Work</a>
         <a href="#contact">Contact</a>
-    </nav>
 
-    <button class="menu-toggle" aria-label="Open navigation menu">
-        <span></span>
-        <span></span>
-    </button>
-</header>
+    </div>
 
 
-<!-- HERO -->
-<main>
+    <!-- HERO -->
 
-    <section id="home" class="hero">
+    <main>
 
-        <div class="hero-top">
-            <p class="eyebrow">PORTFOLIO / 2026</p>
-            <p class="availability">
-                AVAILABLE FOR <span>COLLABORATION</span>
-            </p>
-        </div>
+        <section class="hero" id="home">
 
-        <div class="hero-content">
+            <div class="hero-small reveal">
+                CMR UNIVERSITY • B.TECH CSE • 3RD YEAR
+            </div>
 
-            <h1 class="hero-title">
-                <span class="outline-text">RAJVARDHAN</span>
-                <span>DEWASI<span class="dot">.</span></span>
-            </h1>
+
+            <div class="hero-title">
+
+                <h1 class="reveal">
+                    RAJ
+                </h1>
+
+                <div class="hero-symbol reveal">
+                    ✳
+                </div>
+
+                <h2 class="reveal">
+                    CREATIVE
+                    <span>DEVELOPER</span>
+                </h2>
+
+            </div>
+
 
             <div class="hero-bottom">
 
-                <p class="hero-description">
-                    I build web experiences, experiment with technology,
-                    and continuously explore new ways to turn ideas
-                    into useful digital products.
+                <p class="hero-description reveal">
+
+                    I turn ideas into websites,
+                    experiments into projects,
+                    and curiosity into code.
+
                 </p>
 
-                <a href="#work" class="circle-button magnetic">
-                    <span>EXPLORE<br>MY WORK</span>
-                    <span class="arrow">↓</span>
+
+                <div class="rotating-text reveal">
+
+                    <span id="changingText">
+                        WEB
+                    </span>
+
+                </div>
+
+
+                <a href="#projects" class="circle-button reveal">
+
+                    EXPLORE
+                    <br>
+                    MY WORK
+                    <span>↘</span>
+
                 </a>
 
             </div>
 
-        </div>
 
-        <div class="scroll-indicator">
-            <span>SCROLL TO EXPLORE</span>
-            <div class="scroll-line"></div>
-        </div>
-
-    </section>
+            <div class="hero-line"></div>
 
 
-    <!-- ABOUT -->
-    <section id="about" class="section about-section">
+            <div class="scroll-indicator">
+                SCROLL ↓
+            </div>
 
-        <div class="section-number">01</div>
+        </section>
 
-        <div class="section-content">
 
-            <p class="section-label">ABOUT ME</p>
+        <!-- ABOUT -->
 
-            <h2 class="section-title">
-                CURIOUS BY<br>
-                <span>DEFAULT.</span>
-            </h2>
+        <section class="about section" id="about">
 
-            <div class="about-grid">
+            <div class="section-number">
+                01
+            </div>
 
-                <p class="large-text">
-                    I'm a B.Tech student passionate about building
-                    <span>useful web applications</span>, exploring
-                    emerging technologies, and improving my problem-solving
-                    skills one challenge at a time.
+            <div class="section-heading">
+
+                <p>
+                    A LITTLE ABOUT ME
                 </p>
 
-                <div class="about-details">
+                <h2>
+                    CURIOUS
+                    <br>
+                    BY NATURE.
+                </h2>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="about-main reveal">
+
                     <p>
-                        My journey revolves around turning curiosity into
-                        practical projects. I'm currently exploring
-                        full-stack development while strengthening my
-                        foundations in data structures and algorithms.
+
+                        I'm Raj, a third-year B.Tech Computer
+                        Science Engineering student at
+                        <strong>CMR University</strong>.
+
                     </p>
 
                     <p>
-                        I enjoy experimenting, learning by building,
-                        and constantly improving the way I write and
-                        think about code.
+
+                        I'm fascinated by programming,
+                        website development and artificial
+                        intelligence. I enjoy taking an idea,
+                        breaking it apart and turning it into
+                        something people can actually use.
+
                     </p>
+
+                    <p>
+
+                        I'm constantly learning, experimenting
+                        and building because I believe the best
+                        way to understand technology is to
+                        create with it.
+
+                    </p>
+
+                </div>
+
+
+                <div class="about-side reveal">
+
+                    <div class="info-row">
+
+                        <span>NAME</span>
+                        <strong>Raj</strong>
+
+                    </div>
+
+                    <div class="info-row">
+
+                        <span>DEGREE</span>
+                        <strong>B.Tech CSE</strong>
+
+                    </div>
+
+                    <div class="info-row">
+
+                        <span>UNIVERSITY</span>
+                        <strong>CMR University</strong>
+
+                    </div>
+
+                    <div class="info-row">
+
+                        <span>YEAR</span>
+                        <strong>3rd Year</strong>
+
+                    </div>
+
+                    <div class="info-row">
+
+                        <span>BASED IN</span>
+                        <strong>India</strong>
+
+                    </div>
+
                 </div>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- SKILLS -->
-    <section id="skills" class="section skills-section">
+        <!-- SKILLS -->
 
-        <div class="section-number">02</div>
+        <section class="skills section" id="skills">
 
-        <div class="section-content">
+            <div class="section-number">
+                02
+            </div>
 
-            <p class="section-label">SKILLS & STACK</p>
+            <div class="section-heading">
 
-            <h2 class="section-title">
-                WHAT I<br>
-                <span>WORK WITH.</span>
-            </h2>
+                <p>
+                    WHAT I LIKE TO BUILD
+                </p>
+
+                <h2>
+                    CODE
+                    <br>
+                    WITH
+                    <br>
+                    PURPOSE.
+                </h2>
+
+            </div>
 
 
-            <div class="skills-list">
+            <div class="skills-art">
 
-                <div class="skill-row">
-                    <span class="skill-index">01</span>
-                    <h3>LANGUAGES</h3>
-                    <div class="skill-tags">
-                        <span>JavaScript</span>
-                        <span>Java</span>
-                        <span>Python</span>
-                        <span>C++</span>
-                    </div>
+                <div class="big-number">
+                    03
                 </div>
 
-                <div class="skill-row">
-                    <span class="skill-index">02</span>
-                    <h3>FRONTEND</h3>
-                    <div class="skill-tags">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                        <span>Responsive Design</span>
-                    </div>
-                </div>
+                <div class="skills-list">
 
-                <div class="skill-row">
-                    <span class="skill-index">03</span>
-                    <h3>BACKEND</h3>
-                    <div class="skill-tags">
-                        <span>Node.js</span>
-                        <span>Express.js</span>
-                        <span>REST APIs</span>
-                        <span>JWT</span>
-                    </div>
-                </div>
+                    <div class="skill-item reveal">
 
-                <div class="skill-row">
-                    <span class="skill-index">04</span>
-                    <h3>DATABASE</h3>
-                    <div class="skill-tags">
-                        <span>MongoDB</span>
-                        <span>SQL</span>
-                    </div>
-                </div>
+                        <span>01</span>
 
-                <div class="skill-row">
-                    <span class="skill-index">05</span>
-                    <h3>TOOLS</h3>
-                    <div class="skill-tags">
-                        <span>Git</span>
-                        <span>GitHub</span>
-                        <span>VS Code</span>
-                        <span>Postman</span>
+                        <div>
+
+                            <h3>
+                                PROGRAMMING
+                            </h3>
+
+                            <p>
+                                Logic, problem solving,
+                                algorithms and writing code
+                                that actually works.
+                            </p>
+
+                        </div>
+
                     </div>
+
+
+                    <div class="skill-item reveal">
+
+                        <span>02</span>
+
+                        <div>
+
+                            <h3>
+                                WEB DEVELOPMENT
+                            </h3>
+
+                            <p>
+                                Building responsive,
+                                interactive and creative
+                                digital experiences.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-item reveal">
+
+                        <span>03</span>
+
+                        <div>
+
+                            <h3>
+                                ARTIFICIAL INTELLIGENCE
+                            </h3>
+
+                            <p>
+                                Exploring AI tools,
+                                intelligent applications
+                                and emerging technologies.
+                            </p>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- WORK -->
-    <section id="work" class="section work-section">
+        <!-- PROJECTS -->
 
-        <div class="section-number">03</div>
+        <section class="projects section" id="projects">
 
-        <div class="section-content">
+            <div class="section-number">
+                03
+            </div>
 
-            <div class="section-heading-row">
-                <div>
-                    <p class="section-label">SELECTED WORK</p>
+            <div class="section-heading">
 
-                    <h2 class="section-title">
-                        THINGS I'VE<br>
-                        <span>BUILT.</span>
-                    </h2>
+                <p>
+                    SELECTED PROJECTS
+                </p>
+
+                <h2>
+                    THINGS
+                    <br>
+                    I'VE
+                    <br>
+                    BUILT.
+                </h2>
+
+            </div>
+
+
+            <div class="project-list">
+
+
+                <article class="project-card reveal">
+
+                    <div class="project-top">
+
+                        <span>
+                            01 / WEB
+                        </span>
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </div>
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>
+                            AGRISENSE
+                        </h3>
+
+                        <p>
+                            An agriculture-focused web
+                            platform designed to bring
+                            useful digital tools and
+                            information to the farming
+                            ecosystem.
+                        </p>
+
+                        <span class="project-tech">
+                            WEB DEVELOPMENT • UI • AI
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card dark reveal">
+
+                    <div class="project-top">
+
+                        <span>
+                            02 / AI
+                        </span>
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </div>
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>
+                            AI LAB
+                        </h3>
+
+                        <p>
+                            Experimental ideas exploring
+                            how artificial intelligence can
+                            be integrated into useful
+                            everyday applications.
+                        </p>
+
+                        <span class="project-tech">
+                            AI • EXPERIMENTATION • WEB
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card outline reveal">
+
+                    <div class="project-top">
+
+                        <span>
+                            03 / FULL STACK
+                        </span>
+
+                        <span>
+                            ↗
+                        </span>
+
+                    </div>
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>
+                            DIGITAL
+                            PLAYGROUND
+                        </h3>
+
+                        <p>
+                            A collection of interactive
+                            experiments, interfaces and
+                            development ideas created
+                            while learning new technologies.
+                        </p>
+
+                        <span class="project-tech">
+                            HTML • CSS • JAVASCRIPT
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- HOBBIES -->
+
+        <section class="hobbies section">
+
+            <div class="section-number">
+                04
+            </div>
+
+            <div class="section-heading">
+
+                <p>
+                    OUTSIDE THE SCREEN
+                </p>
+
+                <h2>
+                    LIFE IS
+                    <br>
+                    MORE THAN
+                    <br>
+                    CODE.
+                </h2>
+
+            </div>
+
+
+            <div class="hobby-wall reveal">
+
+                <div class="hobby hobby-one">
+                    GAMING
                 </div>
+
+                <div class="hobby hobby-two">
+                    CRICKET
+                </div>
+
+                <div class="hobby hobby-three">
+                    SLEEPING
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact section" id="contact">
+
+            <div class="section-number">
+                05
+            </div>
+
+            <div class="contact-content">
+
+                <p class="contact-label">
+                    HAVE AN IDEA?
+                </p>
+
+                <h2>
+                    LET'S MAKE
+                    <br>
+                    SOMETHING
+                    <span>INTERESTING.</span>
+                </h2>
+
+
+                <div class="contact-details">
+
+                    <a href="mailto:rajchatgpt@cmr.edu.in">
+
+                        rajchatgpt@cmr.edu.in
+
+                    </a>
+
+                    <a href="tel:1234567890">
+
+                        +91 1234567890
+
+                    </a>
+
+                </div>
+
 
                 <a
-                    href="https://github.com/RajvardhanDewasi"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="text-link"
-                >
-                    VIEW ALL ON GITHUB ↗
+                    href="mailto:rajchatgpt@cmr.edu.in"
+                    class="contact-button">
+
+                    SAY HELLO ↗
+
                 </a>
-            </div>
-
-
-            <div class="projects-grid">
-
-                <!-- PROJECT 1 -->
-                <article class="project-card featured">
-
-                    <div class="project-visual visual-one">
-                        <span class="project-number">01</span>
-
-                        <div class="visual-content">
-                            <span class="fake-chart chart-one"></span>
-                            <span class="fake-chart chart-two"></span>
-                            <span class="fake-chart chart-three"></span>
-                        </div>
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-                            <h3>Analytics Dashboard</h3>
-
-                            <p>
-                                A full-stack dashboard application focused
-                                on managing analytics data with authentication,
-                                CRUD functionality, visual insights and
-                                structured data handling.
-                            </p>
-                        </div>
-
-                        <div class="project-footer">
-
-                            <div class="project-stack">
-                                <span>JavaScript</span>
-                                <span>MERN</span>
-                                <span>JWT</span>
-                            </div>
-
-                            <a
-                                href="https://github.com/RajvardhanDewasi/analytics-dashboard"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="project-link"
-                                aria-label="View Analytics Dashboard on GitHub"
-                            >
-                                ↗
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- PROJECT 2 -->
-                <article class="project-card">
-
-                    <div class="project-visual visual-two">
-                        <span class="project-number">02</span>
-
-                        <div class="task-preview">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-                            <h3>MERN Task Dashboard</h3>
-
-                            <p>
-                                A task management dashboard built around
-                                modern full-stack development concepts,
-                                helping organize and manage tasks through
-                                an interactive web interface.
-                            </p>
-                        </div>
-
-                        <div class="project-footer">
-
-                            <div class="project-stack">
-                                <span>MongoDB</span>
-                                <span>Express</span>
-                                <span>React</span>
-                                <span>Node</span>
-                            </div>
-
-                            <a
-                                href="https://github.com/RajvardhanDewasi/mern-task-dashboard"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="project-link"
-                                aria-label="View MERN Task Dashboard on GitHub"
-                            >
-                                ↗
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- PROJECT 3 -->
-                <article class="project-card">
-
-                    <div class="project-visual visual-three">
-                        <span class="project-number">03</span>
-
-                        <div class="billing-preview">
-                            <div class="billing-line"></div>
-                            <div class="billing-line short"></div>
-                            <div class="billing-card"></div>
-                        </div>
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-                            <h3>SaaS Billing Portal</h3>
-
-                            <p>
-                                A SaaS-oriented billing portal exploring
-                                subscription management and modern web
-                                application workflows through a practical
-                                full-stack project.
-                            </p>
-                        </div>
-
-                        <div class="project-footer">
-
-                            <div class="project-stack">
-                                <span>JavaScript</span>
-                                <span>Node.js</span>
-                                <span>Web App</span>
-                            </div>
-
-                            <a
-                                href="https://github.com/RajvardhanDewasi/saas-billing-portal"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="project-link"
-                                aria-label="View SaaS Billing Portal on GitHub"
-                            >
-                                ↗
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- PROJECT 4 -->
-                <article class="project-card">
-
-                    <div class="project-visual visual-four">
-                        <span class="project-number">04</span>
-
-                        <div class="code-preview">
-                            <span>WORDS</span>
-                            <strong>1,248</strong>
-                            <small>ANALYZED</small>
-                        </div>
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-                            <h3>Word Counter GUI</h3>
-
-                            <p>
-                                A Java Swing desktop application for word
-                                counting and frequency analysis, built to
-                                explore GUI development and text processing.
-                            </p>
-                        </div>
-
-                        <div class="project-footer">
-
-                            <div class="project-stack">
-                                <span>Java</span>
-                                <span>Swing</span>
-                                <span>GUI</span>
-                            </div>
-
-                            <a
-                                href="https://github.com/RajvardhanDewasi/simple-word-counter-gui"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="project-link"
-                                aria-label="View Word Counter GUI on GitHub"
-                            >
-                                ↗
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </article>
 
             </div>
 
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div>
+            © 2026 RAJ
         </div>
 
-    </section>
-
-
-    <!-- CURRENTLY EXPLORING -->
-    <section id="exploring" class="section exploring-section">
-
-        <div class="section-number">04</div>
-
-        <div class="section-content">
-
-            <p class="section-label">CURRENTLY EXPLORING</p>
-
-            <h2 class="section-title">
-                LEARNING.<br>
-                <span>BUILDING.</span><br>
-                REPEATING.
-            </h2>
-
-            <div class="exploring-grid">
-
-                <div class="explore-item">
-                    <span>01</span>
-                    <h3>FULL STACK</h3>
-                    <p>
-                        Building applications that connect thoughtful
-                        frontend experiences with functional backend systems.
-                    </p>
-                </div>
-
-                <div class="explore-item">
-                    <span>02</span>
-                    <h3>AI & COMPUTER VISION</h3>
-                    <p>
-                        Exploring how intelligent systems and computer vision
-                        can be integrated into useful applications.
-                    </p>
-                </div>
-
-                <div class="explore-item">
-                    <span>03</span>
-                    <h3>DSA</h3>
-                    <p>
-                        Strengthening problem-solving skills and building
-                        stronger programming fundamentals.
-                    </p>
-                </div>
-
-            </div>
-
+        <div>
+            BUILT WITH CURIOSITY.
         </div>
 
-    </section>
-
-
-    <!-- BEYOND CODE -->
-    <section class="section beyond-section">
-
-        <div class="section-number">05</div>
-
-        <div class="section-content">
-
-            <p class="section-label">BEYOND THE SCREEN</p>
-
-            <h2 class="section-title">
-                MORE THAN<br>
-                <span>JUST CODE.</span>
-            </h2>
-
-            <div class="beyond-content">
-
-                <p class="large-text">
-                    When I'm not debugging something at
-                    <span>2 AM</span>, you'll probably find me
-                    gaming, following cricket, or perfecting
-                    the underrated skill of doing absolutely nothing.
-                </p>
-
-                <div class="interests">
-                    <div>
-                        <span>01</span>
-                        <h3>GAMING</h3>
-                    </div>
-
-                    <div>
-                        <span>02</span>
-                        <h3>CRICKET</h3>
-                    </div>
-
-                    <div>
-                        <span>03</span>
-                        <h3>SLEEPING</h3>
-                    </div>
-                </div>
-
-            </div>
-
+        <div>
+            HTML • CSS • JS
         </div>
 
-    </section>
+    </footer>
 
 
-    <!-- CONTACT -->
-    <section id="contact" class="contact-section">
-
-        <div class="contact-top">
-
-            <span class="section-number">06</span>
-
-            <p class="section-label">LET'S CONNECT</p>
-
-        </div>
-
-        <h2>
-            HAVE AN IDEA?<br>
-            <span>LET'S TALK.</span>
-        </h2>
-
-        <div class="contact-grid">
-
-            <a href="mailto:your-email@example.com" class="contact-item">
-                <span>EMAIL</span>
-                <strong>LET'S TALK ↗</strong>
-            </a>
-
-            <a
-                href="https://github.com/RajvardhanDewasi"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="contact-item"
-            >
-                <span>GITHUB</span>
-                <strong>@RajvardhanDewasi ↗</strong>
-            </a>
-
-            <a
-                href="https://www.linkedin.com/in/rajvardhandewasi/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="contact-item"
-            >
-                <span>LINKEDIN</span>
-                <strong>CONNECT ↗</strong>
-            </a>
-
-            <a
-                href="https://leetcode.com/u/RajvardhanDewasi/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="contact-item"
-            >
-                <span>LEETCODE</span>
-                <strong>SOLVE TOGETHER ↗</strong>
-            </a>
-
-        </div>
-
-
-        <a href="#" class="resume-placeholder">
-            <span>RESUME</span>
-            <strong>COMING SOON ↓</strong>
-        </a>
-
-
-        <footer>
-            <p>© 2026 RAJVARDHAN DEWASI</p>
-            <p>DESIGNED & BUILT WITH CURIOSITY.</p>
-        </footer>
-
-    </section>
-
-</main>
-
-
-<script src="./script.js"></script>
-```
+    <script src="script.js"></script>
 
 </body>
+
 </html>
